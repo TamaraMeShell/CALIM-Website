@@ -1,0 +1,411 @@
+main {
+    width: 100%;
+    height: calc(60vh - 60px);
+    background-color: #fff;
+    margin-top: 60px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/r-38.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+main p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+main .welcome-links a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    float: left;
+    padding: 15px;
+    border-radius: 1rem;
+    border: 0.2rem solid #fff;
+    text-align: center;
+}
+
+main .welcome-links a:hover {
+    color: #000;
+    font-weight: bold;
+    display: block;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+main .main-welcome {
+    padding: 8vh;
+}
+
+main .welcome-links {
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    display: flex;
+    column-gap: 10px;
+}
+
+/* Category section */
+
+.index-category {
+    width: 100%;
+    padding: 8vh 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    flex-wrap: wrap;
+}
+
+.ind-cat-box {
+    width: 18rem;
+    height: 18rem;
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.ind-cat-box:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/photos/prayer.jpg);
+}
+
+.ind-cat-box:nth-child(1):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/prayer.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+.ind-cat-box:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/placeholders/church-history.jpg);
+}
+
+.ind-cat-box:nth-child(2):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/placeholders/church-history.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+.ind-cat-box:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/photos/give2.jpg);
+}
+
+
+.ind-cat-box:nth-child(3):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/give2.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+
+.ind-cat-box h3 {
+    text-align: center;
+    z-index: 100px;
+}
+
+.ind-cat-box:hover {
+    color: #bfa364;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    transition: all ease-in-out 200ms;
+}
+
+/* Upcoming events section */
+
+.splide{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.slide{
+    width: 100%;
+    max-width: 800px;
+}
+
+.slide img{
+   border-radius: 1rem;
+}
+
+/* Category section part 2 */
+
+.index-category-2 {
+    width: 100%;
+    padding-bottom: 8vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.ind-cat-box-2 {
+    width: 18rem;
+    height: 18rem;
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.ind-cat-box-2:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/placeholders/camp-joshua.jpg);
+}
+
+.ind-cat-box-2:nth-child(1):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/placeholders/camp-joshua.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+.ind-cat-box-2:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/photos/4.jpg);
+}
+
+.ind-cat-box-2:nth-child(2):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/4.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+.ind-cat-box-2:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/photos/11.jpg);
+}
+
+
+.ind-cat-box-2:nth-child(3):hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/11.jpg);
+    transition: all ease-in-out 200ms;
+}
+
+.ind-cat-box-2 h3 {
+    text-align: center;
+}
+
+.ind-cat-box-2:hover {
+    color: #bfa364;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    transition: all ease-in-out 200ms;
+}
+
+@media (max-width: 1075px) {
+    .index-category {
+        column-gap: 60px;
+    }
+
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+        margin: auto 0;
+    }
+
+    .ind-cat-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .slider {
+        width: calc(100% - 20px);
+    }
+
+    .ind-cat-box-2 {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .index-category {
+        column-gap: 60px;
+    }
+
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+        margin: auto 0;
+    }
+
+    .ind-cat-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .slider {
+        width: calc(100% - 20px);
+    }
+
+    .ind-cat-box-2 {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+
+
+    main h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    main p {
+        font-size: .8rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    main .welcome-links a {
+        margin: 30px auto;
+        font-size: .8rem;
+        line-height: .8rem;
+    }
+
+    main .welcome-links {
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        display: flex;
+
+    }
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+        margin: auto 0;
+    }
+
+    .ind-cat-box {
+        width: calc(100% - 20px);
+        height: 160px
+    }
+
+    .splide {
+        width: calc(100% - 20px);
+    }
+
+
+    .ind-cat-box-2 {
+        width: calc(100% - 20px);
+        height: 160px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    main h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    main p {
+        font-size: .8rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    main .welcome-links a {
+        margin: 30px auto;
+        font-size: .8rem;
+        line-height: .8rem;
+    }
+
+    main .welcome-links {
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        display: flex;
+
+    }
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+        margin: auto 0;
+        flex-direction: column;
+    }
+
+    .ind-cat-box {
+        width: calc(100% - 20px);
+        height: 160px;
+    }
+
+    .slider {
+        width: calc(100% - 20px);
+    }
+
+    .ind-cat-box-2 {
+        width: calc(100% - 20px);
+        height: 160px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+    main h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    main p {
+        font-size: .8rem;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    main .welcome-links a {
+        margin: 30px auto;
+        font-size: .8rem;
+        line-height: .8rem;
+    }
+
+    main .welcome-links {
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+        display: flex;
+
+    }
+
+    .index-category {
+        padding: 40px 0 20px;
+        row-gap: 10px;
+        margin: auto 0;
+    }
+
+    .ind-cat-box {
+        width: calc(100% - 20px);
+        height: 160px;
+    }
+
+    .splider {
+        width: calc(100% - 20px);
+    }
+
+    .ind-cat-box-2 {
+        width: calc(100% - 20px);
+        height: 160px;
+    }
+
+}

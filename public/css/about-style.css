@@ -1,0 +1,431 @@
+@font-face {
+    font-family: lexend;
+    src: url(/src/assets/fonts/lexend/Lexend-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: lexend;
+}
+
+.wrapper-main {
+    width: 100%;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    margin-top: 60px;
+}
+
+main .letter {
+    display: block;
+}
+
+.wrapper-main img {
+    width: 100%;
+    max-width: 18.75rem;
+    max-height: 22rem;
+    vertical-align: middle;
+    float: left;
+    padding: 0px 10px 10px 0px;
+}
+
+hr {
+    color: #d9d9d9;
+}
+
+.important-points {
+    background-color: #d9d9d9;
+    height: auto;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.vm {
+    display: block;
+    padding: 20px;
+    float: left;
+    margin-left: 50px;
+}
+
+.vm p {
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.vm h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.leader {
+    flex-basis: 15%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.leader img {
+    width: 50%;
+    height: 100px;
+    border-radius: 100px;
+    align-items: center;
+}
+
+#lead img {
+    transition: transform .2s;
+}
+
+#lead img:hover {
+    transform: scale(1.5);
+}
+
+
+.leader p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px 20px 0;
+    position: absolute;
+    margin-top: 7rem;
+    color: #fff;
+}
+
+
+.leaders {
+    background-color: #6c0b0b;
+    padding-bottom: 70px;
+    height: calc(60vh - 160px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leaders h3 {
+    text-align: center;
+    color: #fff;
+    margin-left: 50px;
+    height: 50px;
+    background-color: #6c0b0b;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.bottom-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.title {
+    color: #6c0b0b;
+    text-align: left;
+}
+
+.bottom-section h1 {
+    text-align: center;
+}
+
+.bottom-section{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.church-history{
+    display: block;
+}
+
+.bottom-section p {
+    text-align: left;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #000;
+}
+
+.more-details {
+    text-align: left;
+    padding-top: 30px;
+    height: auto;
+}
+
+.more-details a {
+    color: #000;
+    font-size: 1rem;
+}
+
+.more-details a:hover {
+    color: #6c0b0b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1200px) {
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .bottom-section {
+        padding: 50px 20px;
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .bottom-section h3 {
+        margin-left: 50px;
+        color: #000;
+    }
+
+    .bottom-section p {
+        width: 100%;
+    }
+
+    .church-history {
+        display: block;
+        margin: 0 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .church-history .church-history a {
+        align-content: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .important-points {
+        background-color: #d9d9d9;
+        width: 100%;
+
+    }
+
+    .vm {
+        width: 100%;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    .leader img {
+        width: 70px;
+    }
+
+    .bottom-section {
+        padding: 50px 20px;
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .bottom-section h3 {
+        margin-left: 50px;
+        color: #000;
+    }
+
+    .bottom-section p {
+        width: 100%;
+    }
+
+    .church-history {
+        display: block;
+        margin: 0 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .church-history .church-history a {
+        align-content: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper-main {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        width: 100%;
+    }
+
+    main .photo-container {
+        width: 30%;
+    }
+
+    main .photo-container img {
+        width: 100%;
+    }
+
+    main .letter {
+        width: 100%;
+    }
+
+    .important-points {
+        background-color: #d9d9d9;
+        width: 100%;
+    }
+
+
+    .vm {
+        width: 100%;
+
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .leader img {
+        width: 70px;
+    }
+
+    .leader p {
+        font-size: 0.8rem;
+        margin-top: 8rem;
+        padding: 15px 15px 0px;
+    }
+
+    .bottom-section {
+        padding: 50px 20px;
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .bottom-section h3 {
+        margin-left: 50px;
+        color: #000;
+    }
+
+    .bottom-section p {
+        width: 100%;
+    }
+
+    .church-history {
+        display: block;
+        margin: 0 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .church-history .church-history a {
+        align-content: left;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        width: 100%;
+    }
+
+    main .photo-container {
+        width: 30%;
+    }
+
+    main .photo-container img {
+        width: 100%;
+    }
+
+    main .letter {
+        width: 100%;
+    }
+
+    .important-points {
+        background-color: #d9d9d9;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 10px;
+    }
+
+
+    .vm {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .leader p {
+        font-size: 0.6rem;
+        margin-top: 9rem;
+        padding: 5px 5px 0px;
+    }
+
+
+    .bottom-section {
+        padding: 50px 20px;
+        width: 100%;
+        margin: auto 0;
+    }
+
+    .bottom-section h3 {
+        margin-left: 50px;
+        color: #000;
+    }
+
+    .bottom-section p {
+        width: 100%;
+    }
+
+    .church-history {
+        display: block;
+        margin: 0 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .church-history .church-history a {
+        align-content: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+     .leader {
+        flex-basis: 15%;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        position: relative;
+    }
+    
+    .leader img {
+        width: 90%;
+        height: 100px;
+        border-radius: 90px;
+        align-items: center;
+    }
+}
