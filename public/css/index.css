@@ -93,11 +93,11 @@ main .welcome-links {
 }
 
 .ind-cat-box:nth-child(2) {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/placeholders/church-history.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/photos/r-44.jpg);
 }
 
 .ind-cat-box:nth-child(2):hover {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/placeholders/church-history.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/photos/r-44.jpg);
     transition: all ease-in-out 200ms;
 }
 
@@ -167,11 +167,11 @@ main .welcome-links {
 }
 
 .ind-cat-box-2:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/placeholders/camp-joshua.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(/src/assets/placeholders/youth-ministry.jpg);
 }
 
 .ind-cat-box-2:nth-child(1):hover {
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/placeholders/camp-joshua.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/src/assets/placeholders/youth-ministry.jpg);
     transition: all ease-in-out 200ms;
 }
 
